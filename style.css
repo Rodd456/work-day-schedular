@@ -1,0 +1,60 @@
+/* Font */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Textarea */
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  /* Description */
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  /* Time block */
+  .time-block {
+    border-radius: 15px;
+  }
+  
+  /* Hour row */
+  .hour {
+    background-color: #fff;
+    color: #000;
+    border-top: 1px dashed #000;
+  }
+  
+  /* Time status */
+  .time-status {
+    background-color: #d3d3d3; /* past */
+    color: white;
+  }
+  .present {
+    background-color: #ff6961; /* present */
+  }
+  .future {
+    background-color: #77dd77; /* future */
+  }
+  
+  /* Save button */
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06aed5;
+    color: white;
+  }
+  
+  /* Save button icon hover effect */
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
